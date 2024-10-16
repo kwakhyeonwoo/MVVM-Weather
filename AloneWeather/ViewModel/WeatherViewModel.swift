@@ -13,7 +13,7 @@ class WeatherViewModel: ObservableObject{
     @Published var isLoading: Bool = false
     @Published var errorMesaage: String?
     
-    private let apikey: String =  "1c7910489fbfcec171ec96b10d5c1eaa"
+    private let apikey: String =  "개인키"
     
     //날씨 API 불러오기 - q, appid가 필수로 들어가야 함
     func fetchWeather(for city: String){
